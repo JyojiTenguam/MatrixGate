@@ -1,39 +1,40 @@
 body {
-  background-color: green;
+  border: 3px solid green;
+  width: 300px;
+  padding: 8% 0 0;
+  margin: auto;
 }
+
 
 .login-form {
-  border: 5px solid red;
-  padding: 120px;
-  height: 300px;
-  width: 400px;
+  border: 3px solid red;
+  position: relative;
+  max-width: 300px;
+  margin: 0 auto 100px;
+  padding: 50px;
 }
-
-.login-form input {
-  text-align: center;
-  width: 100%;
-  display: flex;
-  padding: 5px;
-  margin: 10px;
-}
-
-.logar {
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  background: #4caf50;
+.login-form input{
+  border: 3px solid black;
   width: 100%;
   border: 0;
-  padding: 15px;
-  color: #ffffff;
+  background: #f2f2f2;
+  margin: 0 0 5px;
+  padding: 5px;
+}
+
+.login-form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 8px;
+  color: #FFFFFF;
   font-size: 14px;
   cursor: pointer;
 }
 
-a {
-  text-align: center;
-  color: black;
-}
-
 a:link {
-  text-decoration: none;
+  border: 3px solid blue;
 }
