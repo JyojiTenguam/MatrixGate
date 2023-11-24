@@ -1,47 +1,47 @@
 body {
-  border: 3px solid green;
-  background-color: #4CAF50;
-  width: 300px;
-  padding: 8% 0 0;
+  background-image: linear-gradient(135deg,#BEC1BA, #A4EEA6);
+  width: 250px;
+  padding: 7.5% 0 0;
   margin: auto;
 }
 
 
 .login-form {
-  border: 3px solid red;
-  background-color: aqua;
+  background-color: #EEF7FF;
   position: relative;
   z-index: 1;
+  border-radius: 5px;
   max-width: 300px;
   margin: 0 auto 100px;
   padding: 50px;
   text-align: center;
 }
 .login-form input{
-  border: 3px solid black;
   text-decoration: solid;
   width: 100%;
   border: 0;
-  background: #f2f2f2;
+  border-radius: 3px;
+  background: #FFFFFF;
   margin: 0 0 5px;
   padding: 5px;
+  font-size: 8px;
 }
 
 .login-form button {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
-  background: #4CAF50;
+  background-image: linear-gradient(135deg,#BEC1B6, #AEEA70);
   width: 105%;
   border: 0;
+  border-radius: 3px;
   padding: 5px;
-  color: #FFFFFF;
-  font-size: 14px;
+  color: black;
+  font-size: 8px;
   cursor: pointer;
 }
 
 a:link {
-  border: 3px solid blue;
   position: relative;
   top: 25px;
   color: #b3b3b3;
@@ -49,6 +49,24 @@ a:link {
   text-decoration: none;
 }
 
+#recuperar {
+  color: black;
+  position: relative;
+  top: 10px;
+  font-size: 8px;
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+
 img{
   width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+
+label{
+  font-family: 'Noto Serif', serif;
+  font-size: 18px;
+  position: relative;
+  bottom: 30px;
+
 }
